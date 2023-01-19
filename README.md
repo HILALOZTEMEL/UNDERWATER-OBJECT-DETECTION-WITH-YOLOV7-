@@ -9,6 +9,29 @@ Overall, YOLOv7 has shown promising results for underwater object detection, dem
 
 ## IMAGE PROCESSING PROCESS
 Data Collection: Objects prepared for the task are placed underwater in a pool environment. Underwater objects are recorded using a GoPro camera.
+
 ![image](https://user-images.githubusercontent.com/60732734/213562252-59aae302-1615-43e5-95cb-5c98786a2266.png)
-![image](https://user-images.githubusercontent.com/60732734/213562309-ab952f8c-a58e-451b-9ec4-e12a4958a3b6.png)
-![image](https://user-images.githubusercontent.com/60732734/213562352-54a48097-70f3-4a91-afcd-5c618e00641c.png)
+
+Data Cleaning: The videos are split into photos using the VLC media player. Then, blurry and irrelevant images are removed.
+
+Data Splitting: Dividing the data set into test, train, and validation allows for more effective use of the data during the training and testing of a machine learning model. In summary, the data set is divided into three main parts: test, train and validation.
+
+![image](https://user-images.githubusercontent.com/60732734/213564759-db28c641-9dc6-44b3-93b3-17ef8179b62d.png)
+
+Data Labeling: Data labeling is necessary for training learning algorithms in AI applications and it specifies the meaning, features or categories of the data sets. Objects detected on images were labeled using makeSense.ai for the task of identifying objects in the image.
+
+![image](https://user-images.githubusercontent.com/60732734/213565156-5ad2ed44-90b5-4d63-9b28-bcacbb2df250.png)
+
+Result graph of a model trained with yoloV7 :
+
+![image](https://user-images.githubusercontent.com/60732734/213565444-0a99770b-936f-439e-a064-9a370c3299c0.png)
+
+Video test result :
+
+
+
+
+
+https://user-images.githubusercontent.com/60732734/213565930-9863c0f4-2996-449e-9041-f1b88bb6683b.mp4
+
+
