@@ -28,10 +28,7 @@ Result graph of a model trained with yoloV7 :
 
 Video test result :
 
+https://drive.google.com/file/d/1w5NaFFyPdeOAFbxki5hIpIyv7LnR8LqT/view?amp;usp=embed_facebook
 
-
-
-
-https://user-images.githubusercontent.com/60732734/213565930-9863c0f4-2996-449e-9041-f1b88bb6683b.mp4
 
 
